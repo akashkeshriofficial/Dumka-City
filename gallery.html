@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/gallery.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery.flipster.min.css">
+  <title>Gallery</title>
+</head>
+<body oncontextmenu="return false">
+<div class="hero">
+  <div class="carousel">
+    <ul>
+      <li><img src="image/1.jpg"></li>
+      <span>Night View of Massanjor Dam</span>
+      <li><img src="image/2.jpg"></li>
+      <li><img src="image/3.jpg"></li>
+      <li><img src="image/4.jpg"></li>
+      <li><img src="image/5.jpg"></li>
+      <li><img src="image/6.jpg"></li>
+      <li><img src="image/7.jpg"></li>
+      <li><img src="image/8.jpg"></li>
+      <li><img src="image/9.jpg"></li>
+      <li><img src="image/10.jpg"></li>
+</ul>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/jquery.flipster.min.js"></script>
+<script>
+    $('.carousel').flipster({
+     style:'carousel',
+     spacing: -0.3,
+    });
+</script>
+</body>
+</html>

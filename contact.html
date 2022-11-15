@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>Contact Us Form</title>
+	<link rel="stylesheet"href="css/contact.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body oncontextmenu="return false">
+	
+	<div class="contact-section">
+		<div class="contact-info">
+			<div><i class="fas fa-user"></i>  Kumar Akash</div>
+			<div><i class="fas fa-map-marker-alt"></i> Bandarjori Chowk, Dumka, Jharkhand</div>
+			<div><i class="fas fa-envelope"></i> akashkeshri@dumkacity.in</div>
+			<div><i class="fas fa-phone"></i> +91 7667073657 ,+91 7542957737</div>
+			<div><i class="fas fa-clock"></i>  8:00  to 20:00 (Mon - Sat)</div>
+        </div>
+    <div class="contact-form">
+    <h2>Contact Us</h2>
+    <form class="contact" action="connect.php" method="post">
+    <input type="text" name="name" class="text-box" placeholder="Full Name" required>
+    <input type="email" name="email" class="text-box" placeholder="E-mail id" required>
+    <textarea name="Message" rows="10" placeholder="Feedback" required></textarea>
+    <input type="submit" name="submit" class="send-btn" value="Send">
+</form>
+</div>
+</div>
+</body>	
+</html>
